@@ -14,5 +14,11 @@ pipeline {
                 sh 'ls -l'
             }
         }
+       stage('Test') {
+            steps {
+                echo 'Pipeline in testing stage'
+                sh 'cat Jenkins'
+            }
+        }
     }
 }
