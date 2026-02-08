@@ -17,7 +17,7 @@ pipeline {
        stage('Test') {
             steps {
                 echo 'Pipeline in testing stage'
-                sh 'cat Jenkins'
+                sh 'cat Jenkinsfile'
             }
         }
     }
